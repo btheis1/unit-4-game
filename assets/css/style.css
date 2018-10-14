@@ -1,18 +1,16 @@
 body {
     background-color: black;
-    color: white;
-    
+    color: white;  
 }
-
-
 #header {
     color:rgb(17, 204, 195);
     font-size: 50px;
-    margin: 20px auto 50px auto;
+    height: 70px;
+    margin: 0px auto 0px auto;
+    padding-top: 20px;
     text-align: center;
     border: 5px solid rgb(231, 17, 160);
 }
-
 #images {
     text-align: center;
 }
@@ -22,8 +20,8 @@ body {
 
 }
 #instructions {
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
     width: 40%;
     margin: 0px auto;
 }
@@ -32,4 +30,42 @@ body {
     text-align: center;
     margin: 20px auto;
 }
-
+#random-number-text {
+    height: 50px;
+    width: 40%;
+    font-size: 30px;
+    background-color: rgb(10, 109, 175);
+    margin: 10px auto 0px auto;
+    text-align: center;
+}
+#total-score {
+    height: 50px;
+    width: 40%;
+    font-size: 30px;
+    background-color: rgb(10, 109, 175);
+    margin: 0px auto;
+    text-align: center;
+}
+#wins {
+    height: 30px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(10, 109, 175);
+    margin: 0px auto;
+    
+}
+#losses {
+    height: 30px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(10, 109, 175);
+    margin: 0px auto;
+}
+#scorecard {
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(10, 109, 175);
+    margin: 0px auto;
+    text-align: center;
+}
