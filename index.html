@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <title>Crystal Game</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>This Game ROCKS!</header>
+        <div id="instructions">
+            <h1 id="instructionsHead">Instructions</h1>
+            <p>I am thinking of a random number. See if you can guess it by clicking on my rocks and mineals!</p>
+            <p>The rocks and minerals will be assigned random values at the start of each game. You win the game by matching your total score to the random number. You lose by going over the random number.</p>
+            <p>After you win or lose, the game will restart, with a new random number, and new values assigned to each rock.</p>
+        </div>
+        <div id="random-number-text">
+            
+        </div>
+        <div id="scorecard">
+        </div>
+        <div id="images">
+            <img id="img-1" class="image" src="assets/images/amethyst.jpg" alt="amethyst"/>
+            <img id="img-2" class="image" src="assets/images/mineral.jpg" alt="mineral"/>
+            <img id="img-3" class="image" src="assets/images/moonstone.jpg" alt="moonstone"/>
+            <img id="img-4" class="image" src="assets/images/turquoise.jpg" alt="turquoise"/>
+        </div>       
+        <div id="total-score">
+            <h1> Your Total Score: </h1>
+            <h1 id="wins">Wins: </h1>
+            <h1 id="losses">Losses: </h1>
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
