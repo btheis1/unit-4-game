@@ -4,12 +4,13 @@ body {
     
 }
 
-header {
-    color:teal;
-    font-size: 40px;
-    margin: 60px auto;
-    text-align: center;
 
+#header {
+    color:rgb(17, 204, 195);
+    font-size: 50px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    border: 5px solid rgb(231, 17, 160);
 }
 
 #images {
@@ -20,8 +21,15 @@ header {
     height: 200px;
 
 }
-
+#instructions {
+    font-size: 23px;
+    line-height: 30px;
+    width: 40%;
+    margin: 0px auto;
+}
 #instructionsHead {
     font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
 }
 
